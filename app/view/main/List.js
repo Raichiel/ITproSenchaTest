@@ -1,15 +1,11 @@
-/**
- * This view is an example list of people.
- */
+
 Ext.define('ITProSenchaTest.view.main.List', {
     extend: 'Ext.grid.Panel',
     xtype: 'mainlist',
 
     requires: [
-        'ITProSenchaTest.store.Personnel'
+        'ITProSenchaTest.store.Personnel',
     ],
-
-    title: 'Personnel',
 
     store: {
         type: 'personnel'
@@ -22,6 +18,6 @@ Ext.define('ITProSenchaTest.view.main.List', {
     ],
 
     listeners: {
-        select: 'onItemSelected'
+        itemdblclick: 'onItemDblClicked'
     }
 });

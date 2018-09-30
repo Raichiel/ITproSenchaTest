@@ -3,15 +3,11 @@ Ext.define('ITProSenchaTest.view.main.MainController', {
 
     alias: 'controller.main',
 
-    onItemSelected: function (sender, record) {
-        Ext.Msg.confirm('Confirm', 'Are you sure?', 'onConfirm', this);
+    onItemDblClicked: function (sender, record) {
+        console.log("arguments")
+        Ext.create('ITProSenchaTest.view.productDetail.productDetail')
     },
 
-    onConfirm: function (choice) {
-        if (choice === 'yes') {
-            //
-        }
-    },
 
     onClickButton: function () {
         // Remove the localStorage key/value

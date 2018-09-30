@@ -8,7 +8,8 @@ Ext.define('ITProSenchaTest.view.main.Main', {
 
         'ITProSenchaTest.view.main.MainController',
         'ITProSenchaTest.view.main.MainModel',
-        'ITProSenchaTest.view.main.List'
+        'ITProSenchaTest.view.main.List',
+
     ],
 
     controller: 'main',
@@ -17,7 +18,6 @@ Ext.define('ITProSenchaTest.view.main.Main', {
 
     ui: 'navigation',
 
-    tabBarHeaderPosition: 1,
     titleRotation: 0,
     tabRotation: 0,
 
@@ -34,71 +34,46 @@ Ext.define('ITProSenchaTest.view.main.Main', {
         iconCls: 'fa-th-list',
         items: [{
             xtype: 'button',
+            text: 'Товары',
+            margin: '10 10',
+            handler: 'onClickButton'
+        },{
+            xtype: 'button',
             text: 'Logout',
-            margin: '10 0',
+            margin: '10 10',
             handler: 'onClickButton'
         }]
     },
 
-    tabBar: {
-        flex: 1,
-        layout: {
-            align: 'stretch',
-            overflowHandler: 'none'
-        }
-    },
-
     responsiveConfig: {
         tall: {
-            headerPosition: 'top'
+            headerPosition: 'left'
         },
         wide: {
-            headerPosition: 'left'
+            headerPosition: 'top'
         }
     },
 
     defaults: {
-        bodyPadding: 20,
         tabConfig: {
             plugins: 'responsive',
             responsiveConfig: {
                 wide: {
-                    iconAlign: 'left',
-                    textAlign: 'left'
+                   // textAlign: 'center',
+                    width: 200,
+                   // height: 50,
                 },
                 tall: {
-                    iconAlign: 'top',
-                    textAlign: 'center',
-                    width: 120
+                    iconAlign: 'left',
+                    textAlign: 'left'
                 }
             }
         }
     },
 
+
     items: [{
-        title: 'Home',
-        iconCls: 'fa-home',
-        // The following grid shares a store with the classic version's grid as well!
-        items: [{
-            xtype: 'mainlist'
-        }]
-    }, {
-        title: 'Users',
-        iconCls: 'fa-user',
-        bind: {
-            html: '{loremIpsum}'
-        }
-    }, {
-        title: 'Groups',
-        iconCls: 'fa-users',
-        bind: {
-            html: '{loremIpsum}'
-        }
-    }, {
-        title: 'Settings',
-        iconCls: 'fa-cog',
-        bind: {
-            html: '{loremIpsum}'
-        }
+        title: 'Товары',
+        xtype: 'mainlist'
     }]
 });

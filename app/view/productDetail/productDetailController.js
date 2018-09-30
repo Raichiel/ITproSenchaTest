@@ -1,8 +1,9 @@
-Ext.define('ITProSenchaTest.view.login.LoginController', {
-    extend: 'Ext.app.ViewController',
-    alias: 'controller.login',
 
-    onLoginClick: function (btn) {
+Ext.define('ITProSenchaTest.view.productDetail.productDetailController', {
+    extend: 'Ext.app.ViewController',
+    alias: 'controller.productdetail',
+
+/*    onLoginClick: function (btn) {
 
         var loginData = btn.up('form').getValues();
 
@@ -32,5 +33,5 @@ Ext.define('ITProSenchaTest.view.login.LoginController', {
 
     checkPassword: function (password) {
         return password === "padmin"
-    }
-});
+    }*/
+})

@@ -1,64 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="476850d8-d51b-43a8-ad21-8ce5709438a7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/ITproSenchaTest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sencha/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sencha/app/Boot.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sencha/app/Microloader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sencha/app/bootstrap-impl.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sencha/app/build-impl.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sencha/app/build.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sencha/app/codegen.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sencha/app/cordova-impl.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sencha/app/cordova.defaults.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sencha/app/defaults.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sencha/app/development.defaults.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sencha/app/development.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sencha/app/ext.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sencha/app/find-cmd-impl.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sencha/app/init-impl.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sencha/app/js-impl.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sencha/app/native.defaults.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sencha/app/native.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sencha/app/package.defaults.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sencha/app/package.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sencha/app/packager-impl.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sencha/app/page-impl.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sencha/app/phonegap-impl.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sencha/app/phonegap.defaults.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sencha/app/plugin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sencha/app/production.defaults.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sencha/app/production.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sencha/app/refresh-impl.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sencha/app/resolve-impl.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sencha/app/resources-impl.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sencha/app/sass-impl.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sencha/app/sencha.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sencha/app/slice-impl.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sencha/app/testing.defaults.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sencha/app/testing.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sencha/app/watch-impl.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sencha/workspace/sencha.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Application.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/model/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/store/Personnel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/store/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/view/login/LoginController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/view/main/List.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/view/main/Main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/view/main/MainController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/view/main/MainModel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.xml" afterDir="false" />
+    <list default="true" id="476850d8-d51b-43a8-ad21-8ce5709438a7" name="Default" comment="app create+login">
+      <change afterPath="$PROJECT_DIR$/app/model/Product.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/view/productDetail/productDetail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/view/productDetail/productDetailController.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/build/development/ITProSenchaTest/ext/resources/ext-watermark/demo-files/demo.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/build/development/ITProSenchaTest/ext/resources/ext-watermark/demo-files/demo.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/build/development/ITProSenchaTest/ext/resources/ext-watermark/demo.html" afterDir="false" />
@@ -5279,15 +5225,17 @@
       <change afterPath="$PROJECT_DIR$/ext/sass/etc/all.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/ext/sass/etc/font-awesome-variables.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/ext/sass/etc/font-ext-variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sass/config.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sass/etc/all.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sass/example/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sass/example/bootstrap.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sass/example/fashion.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sass/example/theme.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sass/var/all.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workspace.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/store/Personnel.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/store/Personnel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/login/LoginController.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/login/LoginController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/main/List.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/List.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/main/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/Main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/main/MainController.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/MainController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/main/MainModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/main/MainModel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap.json" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap.jsonp" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap.jsonp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/example/bootstrap.json" beforeDir="false" afterPath="$PROJECT_DIR$/sass/example/bootstrap.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/example/bootstrap.jsonp" beforeDir="false" afterPath="$PROJECT_DIR$/sass/example/bootstrap.jsonp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -5304,7 +5252,7 @@
       <file leaf-file-name="Application.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Application.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
+            <state relative-caret-position="17">
               <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
@@ -5314,19 +5262,16 @@
         <entry file="file://$PROJECT_DIR$/app/view/main/Main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+              <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app.js">
+      <file leaf-file-name="List.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/view/main/List.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="28" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="153">
+              <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -5334,22 +5279,26 @@
       <file leaf-file-name="MainController.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/view/main/MainController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="11" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+            <state relative-caret-position="102">
+              <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainModel.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/view/main/MainModel.js">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="Personnel.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/store/Personnel.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginController.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/view/login/LoginController.js">
+      <file leaf-file-name="Product.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/model/Product.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+            <state relative-caret-position="34">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="3" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -5357,18 +5306,47 @@
       <file leaf-file-name="Login.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/view/login/Login.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
+            <state relative-caret-position="391">
+              <caret line="32" column="11" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="32" selection-end-column="11" />
+              <folding>
+                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="productDetail.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/view/productDetail/productDetail.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="47" column="11" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="productDetailController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/view/productDetail/productDetailController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-15">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>onAppUpdate</find>
       <find>TutorialApp</find>
+      <find>Product</find>
     </findStrings>
     <replaceStrings>
       <replace>ITProSenchaTest</replace>
@@ -5383,12 +5361,18 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/view/main/Main.js" />
         <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/app/view/main/MainController.js" />
         <option value="$PROJECT_DIR$/app/Application.js" />
+        <option value="$PROJECT_DIR$/app/view/main/MainModel.js" />
         <option value="$PROJECT_DIR$/app/view/login/Login.js" />
         <option value="$PROJECT_DIR$/app/view/login/LoginController.js" />
+        <option value="$PROJECT_DIR$/app/view/main/Main.js" />
+        <option value="$PROJECT_DIR$/app/model/Product.js" />
+        <option value="$PROJECT_DIR$/app/store/Personnel.js" />
+        <option value="$PROJECT_DIR$/app/view/main/List.js" />
+        <option value="$PROJECT_DIR$/app/view/productDetail/productDetailController.js" />
+        <option value="$PROJECT_DIR$/app/view/main/MainController.js" />
+        <option value="$PROJECT_DIR$/app/view/productDetail/productDetail.js" />
       </list>
     </option>
   </component>
@@ -5442,7 +5426,9 @@
     <option name="width" value="1370" />
     <option name="height" value="744" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -5492,6 +5478,13 @@
               <item name="view" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ITproSenchaTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ITproSenchaTest" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="productDetail" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -5504,8 +5497,12 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ext6/examples/classic/ticket-app" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\JS\Projects\ITproSenchaTest\app\view" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\JS\Projects\ITproSenchaTest\app\view\login" />
     </key>
@@ -5533,24 +5530,34 @@
       <option name="presentableId" value="Default" />
       <updated>1538238151214</updated>
       <workItem from="1538238158011" duration="8576000" />
-      <workItem from="1538256017120" duration="530000" />
+      <workItem from="1538256017120" duration="15509000" />
     </task>
+    <task id="LOCAL-00001" summary="app create+login">
+      <created>1538256950765</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1538256950765</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9106000" />
+    <option name="totallyTimeSpent" value="24085000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25372022" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25372022" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32838285" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32838285" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32838285" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32838285" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -5559,11 +5566,36 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -5621,26 +5653,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/main/MainController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="11" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/main/MainModel.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/main/Main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
+        <state relative-caret-position="136">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="28" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -5648,24 +5663,83 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Application.js">
+    <entry file="file://$PROJECT_DIR$/app/view/main/MainModel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="119">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/login/Login.js">
+    <entry file="file://$PROJECT_DIR$/app/Application.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
+        <state relative-caret-position="17">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/view/login/LoginController.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-117">
+          <caret line="4" column="34" lean-forward="true" selection-end-line="35" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/main/Main.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/store/Personnel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/main/List.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/productDetail/productDetailController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-15">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/main/MainController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/login/Login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="32" column="11" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="32" selection-end-column="11" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/model/Product.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="3" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/productDetail/productDetail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="47" column="11" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="11" />
         </state>
       </provider>
     </entry>
