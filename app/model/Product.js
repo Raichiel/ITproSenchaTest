@@ -1,10 +1,11 @@
 Ext.define('ITProSenchaTest.model.Product', {
     extend: 'Ext.data.Model',
-
-  //  entityname: 'model.product',
-
     fields: [
-        'name', 'email', 'phone'
+        'id'
+        ,'name'
+        , 'descr'
+        , 'price'
+        , 'quantity'
     ],
 
     proxy: {

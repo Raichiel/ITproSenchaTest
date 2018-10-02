@@ -5,7 +5,14 @@ Ext.define('ITProSenchaTest.view.main.MainController', {
 
     onItemDblClicked: function (sender, record) {
         console.log("arguments")
-        Ext.create('ITProSenchaTest.view.productDetail.productDetail')
+        Ext.create('ITProSenchaTest.view.productDetail.productDetail',
+            {
+                viewModel: {
+                    data: {
+                        record: record
+                    }
+                }
+            })
     },
 
 
