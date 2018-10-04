@@ -22,25 +22,28 @@ Ext.define('ITProSenchaTest.view.main.List', {
                     width: '100%',
                     componentCls: 'QGSM-filterForm',
                     defaults: {
-                        componentCls: 'QGSM-filterField'
+                        componentCls: 'QGSM-filterField',
+                        enableKeyEvents: true,
+                        listeners: {
+                            keyPress: 'onKeyPress'
+                        }
                     },
                     items: [
                         {
                             xtype: 'numberfield',
                             fieldLabel: 'ID',
-                            name: 'id'
+                            name: 'id',
+                            minValue:0,
+                            hideTrigger: true,
+                            keyNavEnabled: false,
+                            mouseWheelEnabled: false,
+                            allowDecimals:false
                         },
                         {
                             xtype: 'textfield',
                             fieldLabel: 'Название',
                             name: 'name'
-                        },
-                        {
-                            xtype: 'button',
-                            text: 'Обновить',
-                            handler: function () {
-                                console.log("this", this, 'arguments', arguments)
-                            }
+
                         }
                     ]
                 }
@@ -53,7 +56,15 @@ Ext.define('ITProSenchaTest.view.main.List', {
         {text: 'Name', dataIndex: 'name', flex: 8},
         {text: 'Descr', dataIndex: 'descr', flex: 15},
         {text: 'Price', dataIndex: 'price', flex: 2},
-        {text: 'Quantity', dataIndex: 'quantity', flex: 2}
+        {
+            text: 'Quantity', dataIndex: 'quantity', flex: 2, renderer: function (val, metaData) {
+                if (val === 0) {
+                    metaData.tdAttr = 'bgcolor=red';
+
+                }
+                return val
+            }
+        }
     ],
 
     listeners: {
