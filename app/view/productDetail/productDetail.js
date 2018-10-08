@@ -56,6 +56,7 @@ Ext.define('ITProSenchaTest.view.productDetail.productDetail', {
             xtype: 'numberfield',
             name: 'price',
             fieldLabel: 'Price',
+            minValue:0.01
             /*bind:'{record.price}',*/
         },{
         },{
@@ -70,8 +71,7 @@ Ext.define('ITProSenchaTest.view.productDetail.productDetail', {
 
         buttons: [{
             text: 'Save',
-            handler: 'onFormSave',
-            formbind: true
+            handler: 'onFormSave'
         },{
             text: 'Cancel',
             handler: 'onFormCancel'

@@ -9,7 +9,7 @@ Ext.define('ITProSenchaTest.view.productDetail.productDetailController', {
     onFormSave: function (btn) {
         var window = btn.up('window');
         var curForm = window.down('form');
-        if (curForm.isDirty()) {
+        if (curForm.isDirty() && curForm.isValid()) {
             Ext.MessageBox.confirm(
                 "Внимание!"
                 , "Данные были изменены, продолжить?"
@@ -23,7 +23,13 @@ Ext.define('ITProSenchaTest.view.productDetail.productDetailController', {
                     Ext.Msg.alert("Внимание", "Даные успешно сохранены")
                 })
         } else {
-            window.close();
+            if(!curForm.isValid()){
+                Ext.Msg.alert("Внимание", "Форма невалидна, отправка запроса невозможна")
+            } else {
+                window.close();
+            }
+
+
         }
     }
 });
