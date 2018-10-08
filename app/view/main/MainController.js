@@ -6,12 +6,12 @@ Ext.define('ITProSenchaTest.view.main.MainController', {
     onItemDblClicked: function (sender, record) {
         Ext.create('ITProSenchaTest.view.productDetail.productDetail',
             {
-/*                viewModel: {
+                viewModel: {
                     data: {
-                        record: record
+                        record: undefined
                     }
-                },*/
-                record: record
+                },
+                /*record: record*/
             })
     },
     onKeyPress: function (tfield, e, eOpts) {
