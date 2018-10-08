@@ -2,6 +2,7 @@ Ext.define('ITProSenchaTest.store.Products', {
     extend: 'Ext.data.Store',
     model: "ITProSenchaTest.model.Product",
     alias: 'store.products',
+    autoSync: true,
     data: {
         items: [
             {

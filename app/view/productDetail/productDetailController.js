@@ -7,7 +7,23 @@ Ext.define('ITProSenchaTest.view.productDetail.productDetailController', {
     },
 
     onFormSave: function (btn) {
-        Ext.Msg.alert("Внимание", "Даные успешно сохранены")
-        btn.up('window').close()
+        var window = btn.up('window');
+        var curForm = window.down('form');
+        if (curForm.isDirty()) {
+            Ext.MessageBox.confirm(
+                "Внимание!"
+                , "Данные были изменены, продолжить?"
+                , function (stance) {
+                    if (stance === "yes") {
+                        var formRecord = curForm.getForm().getRecord();
+                        var fromValues = curForm.getValues();
+                        formRecord.set(fromValues)
+                    }
+                    window.close();
+                    Ext.Msg.alert("Внимание", "Даные успешно сохранены")
+                })
+        } else {
+            window.close();
+        }
     }
-})
+});
