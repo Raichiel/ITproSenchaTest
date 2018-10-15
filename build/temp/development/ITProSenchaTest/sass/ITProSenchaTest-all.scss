@@ -1,6 +1,18 @@
 $app-name:  dynamic( 'ITProSenchaTest' );
-$image-search-path: 'C:/Users/a.krendyasov/IdeaProjects/ITproSenchaTest1/build/development/ITProSenchaTest/resources';
+$image-search-path: 'C:/Users/a.krendyasov/IdeaProjects/ArmDeliver/build/development/ITProSenchaTest/resources';
 $theme-name:  dynamic( 'theme-triton' );
+$include-armdeliver-application: dynamic(true);;
+$include-armdeliver-model-product: dynamic(true);;
+$include-armdeliver-store-products: dynamic(true);;
+$include-armdeliver-view-login-login: dynamic(true);;
+$include-armdeliver-view-login-logincontroller: dynamic(true);;
+$include-armdeliver-view-main-list: dynamic(true);;
+$include-armdeliver-view-main-main: dynamic(true);;
+$include-armdeliver-view-main-maincontroller: dynamic(true);;
+$include-armdeliver-view-main-mainmodel: dynamic(true);;
+$include-armdeliver-view-productdetail-productdetail: dynamic(true);;
+$include-armdeliver-view-productdetail-productdetailcontroller: dynamic(true);;
+$include-armdeliver-view-productdetail-productdetailmodel: dynamic(true);;
 $include-ext-abstractcomponent: dynamic(true);;
 $include-ext-abstractcontainer: dynamic(true);;
 $include-ext-abstractmanager: dynamic(true);;
@@ -875,18 +887,6 @@ $include-ext-view-view: dynamic(true);;
 $include-ext-window-messagebox: dynamic(true);;
 $include-ext-window-toast: dynamic(true);;
 $include-ext-window-window: dynamic(true);;
-$include-itprosenchatest-application: dynamic(true);;
-$include-itprosenchatest-model-product: dynamic(true);;
-$include-itprosenchatest-store-products: dynamic(true);;
-$include-itprosenchatest-view-login-login: dynamic(true);;
-$include-itprosenchatest-view-login-logincontroller: dynamic(true);;
-$include-itprosenchatest-view-main-list: dynamic(true);;
-$include-itprosenchatest-view-main-main: dynamic(true);;
-$include-itprosenchatest-view-main-maincontroller: dynamic(true);;
-$include-itprosenchatest-view-main-mainmodel: dynamic(true);;
-$include-itprosenchatest-view-productdetail-productdetail: dynamic(true);;
-$include-itprosenchatest-view-productdetail-productdetailcontroller: dynamic(true);;
-$include-itprosenchatest-view-productdetail-productdetailmodel: dynamic(true);;
 $output-paths: ("path": "../resources");
 
 /* ======================== ETC ======================== */
@@ -1335,11 +1335,3 @@ $relative-image-path-for-uis: $theme-triton-resource-path;
 @import '../../../../../ext/classic/theme-triton/sass/src/tab/Tab';
 @import '../../../../../ext/classic/theme-triton/sass/src/tree/View';
 @import '../../../../../ext/classic/theme-triton/sass/src/window/Toast';
-
-/* including package ITProSenchaTest */
-$ITProSenchaTest-resource-root: '' !default;
-$ITProSenchaTest-resource-path: 'images' !default;
-$current-package: false;
-$current-resource-root: $ITProSenchaTest-resource-root;
-$relative-image-path-for-uis: $ITProSenchaTest-resource-path;
-@import '../../../../../sass/src/view/main/Main';

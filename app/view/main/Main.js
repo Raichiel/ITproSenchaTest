@@ -1,15 +1,11 @@
-Ext.define('ITProSenchaTest.view.main.Main', {
+Ext.define('ArmDeliver.view.main.Main', {
     extend: 'Ext.tab.Panel',
     xtype: 'app-main',
 
     requires: [
-        'Ext.plugin.Viewport',
-        'Ext.window.MessageBox',
-
-        'ITProSenchaTest.view.main.MainController',
-        'ITProSenchaTest.view.main.MainModel',
-        'ITProSenchaTest.view.main.List',
-
+        'ArmDeliver.view.main.MainController',
+        'ArmDeliver.view.main.MainModel',
+        'ArmDeliver.view.main.List',
     ],
 
     controller: 'main',
@@ -17,7 +13,6 @@ Ext.define('ITProSenchaTest.view.main.Main', {
     plugins: 'viewport',
 
     ui: 'navigation',
-
     titleRotation: 0,
     tabRotation: 0,
 
@@ -34,20 +29,15 @@ Ext.define('ITProSenchaTest.view.main.Main', {
         iconCls: 'fa-th-list',
         items: [{
             xtype: 'button',
-            text: 'Товары',
-            margin: '10 10',
-            handler: 'onClickButton'
-        },{
-            xtype: 'button',
             text: 'Logout',
             margin: '10 10',
-            handler: 'onClickButton'
+            handler: 'onLogoutClickButton'
         }]
     },
 
     responsiveConfig: {
         tall: {
-            headerPosition: 'left'
+            headerPosition: 'top'
         },
         wide: {
             headerPosition: 'top'
@@ -73,7 +63,10 @@ Ext.define('ITProSenchaTest.view.main.Main', {
 
 
     items: [{
-        title: 'Товары',
+        title: 'Заказы',
         xtype: 'mainlist'
+    }, {
+        title: 'Настройки',
+        xtype: 'productdetail'
     }]
 });

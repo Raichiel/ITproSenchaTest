@@ -1,4 +1,4 @@
-Ext.define('ITProSenchaTest.view.login.LoginController', {
+Ext.define('ArmDeliver.view.login.LoginController', {
     extend: 'Ext.app.ViewController',
     alias: 'controller.login',
 

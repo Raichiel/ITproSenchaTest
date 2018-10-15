@@ -1,86 +1,104 @@
-
-Ext.define('ITProSenchaTest.view.productDetail.productDetail', {
-    extend: 'Ext.window.Window',
-    xtype: 'productDetailWindow',
-
+Ext.define('ArmDeliver.view.productDetail.productDetail', {
+    extend: 'Ext.form.Panel',
+    alias: 'widget.productdetail',
+    xtype: 'productdetail',
     reference: 'productdetail',
 
     requires: [
-        'ITProSenchaTest.view.productDetail.productDetailController',
-        'ITProSenchaTest.view.productDetail.productDetailModel',
-        'Ext.form.Panel'
+        'ArmDeliver.view.productDetail.productDetailController',
+        'ArmDeliver.view.productDetail.productDetailModel',
+
     ],
 
     controller: 'productdetail',
     viewModel: {
         type: 'productdetail'
     },
+    //url: "http://localhost:8080/admin/settings",
+   // method:'GET',
+    clientValidation: true,
 
-    title: 'Информация о товаре',
-    minWidth: 300,
-    layout: 'fit',
-    resizable: true,
-    modal: true,
-    autoShow:true,
+    padding:'10',
+
     items: [{
-        xtype: 'form',
-        border: false,
-        bodyPadding: 10,
         layout: 'vbox',
-        trackResetOnLoad: true,
-        fieldDefaults: {
-            msgTarget: 'side',
-            labelWidth: 100,
-            labelStyle: 'font-weight:bold'
-        },
+        width: 575,
+        items: [
+            {
+                xtype: 'fieldset',
+                fieldDefaults: {
+                    msgTarget: 'side',
+                    labelWidth: 350,
+                    labelStyle: 'font-weight:bold',
 
-        items: [{
-            xtype: 'displayfield',
-            name: 'id',
-            fieldLabel: 'Id',
-            value:''
-          /* bind:'{record.id}',*/
-        },{
-            xtype: 'displayfield',
-            name: 'name',
-            fieldLabel: 'Name',
-          /*  bind:'{record.name}',*/
-        },{
-        },{
-            xtype: 'displayfield',
-            name: 'descr',
-            fieldLabel: 'Description',
-           /* bind:'{record.descr}',*/
-        },{
-        },{
-            xtype: 'numberfield',
-            name: 'price',
-            fieldLabel: 'Price',
-            minValue:0.01
-            /*bind:'{record.price}',*/
-        },{
-        },{
-            xtype: 'numberfield',
-            name: 'quantity',
-            fieldLabel: 'Quantity',
-            decimalPrecision:0,
-            minValue:0,
-            /*bind:'{record.quantity}',*/
-        },{
-        }],
+                },
+                padding:'13 10 10 10',
+                items: [{
+                        xtype: 'numberfield',
+                        name: 'minDaysBeforeDelivery',
+                        fieldLabel: 'Возможная ближайшая дата доставки ',
+                        hideTrigger: true,
+                        keyNavEnabled: false,
+                        mouseWheelEnabled: false,
+                        minValue: 0
+                        /* bind:'{record.id}',*/
+                    },
+                    {
+                        xtype: 'timefield',
+                        name: 'timeBorder',
+                        fieldLabel: 'Максимально возможное время текущего дня ',
+                        format:'H:i'
+                        /*  bind:'{record.name}',*/
+                    },
+                    {
+                        xtype: 'numberfield',
+                        name: 'maxDeliveryInterval',
+                        fieldLabel: 'Максимально возможный интервал доставки ',
+                        hideTrigger: true,
+                        keyNavEnabled: false,
+                        mouseWheelEnabled: false,
+                        minValue: 0
+                        /* bind:'{record.descr}',*/
+                    },
+                    {
+                        xtype: 'numberfield',
+                        name: 'maxDailyDeliveries',
+                        fieldLabel: 'Максимально возможное кол-во заказов в день ',
+                        minValue: 0,
+                        hideTrigger: true,
+                        keyNavEnabled: false,
+                        mouseWheelEnabled: false
+                        /*bind:'{record.price}',*/
+                    },
+                    {
+                        xtype: 'datefield',
+                        name: 'finalDeliveryDate',
+                        fieldLabel: 'Крайняя дата доставки ',
+                        format:"Y.m.d"
+                        /*bind:'{record.quantity}',*/
+                    },
+                    {
 
-        buttons: [{
-            text: 'Save',
-            handler: 'onFormSave'
-        },{
-            text: 'Cancel',
-            handler: 'onFormCancel'
-        } ]
+                        items:[{
+                            xtype: 'button',
+                            text: 'Сохранить',
+                            cls: 'contactBtn',
+                            handler: 'onFormSave',
+                            margin:10
+
+                        },{
+                            xtype: 'button',
+                            text: 'Обновить',
+                            cls: 'contactBtn',
+                            handler: 'onFormRefresh',
+                            margin:10
+                        }]
+
+                    }]
+            }],
     }],
 
     listeners: {
-        boxready: function (view) {
-            view.down('form').loadRecord(view.record);
-        }
+        boxready:'onFormBoxReady'
     }
 });

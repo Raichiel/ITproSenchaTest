@@ -2,7 +2,7 @@
     /**
      * The application's namespace.
      */
-    "name": "ITProSenchaTest",
+    "name": "ArmDeliver",
     
     /**
      * The version of the application.
@@ -86,13 +86,13 @@
     "sass": {
         /**
          * The root namespace to use when mapping *.scss files to classes in the
-         * sass/src and sass/var directories. For example, "ITProSenchaTest.view.Foo" would
-         * map to "sass/src/view/Foo.scss". If we changed this to "ITProSenchaTest.view" then
+         * sass/src and sass/var directories. For example, "ArmDeliver.view.Foo" would
+         * map to "sass/src/view/Foo.scss". If we changed this to "ArmDeliver.view" then
          * it would map to "sass/src/Foo.scss". To style classes outside the app's
          * root namespace, change this to "". Doing so would change the mapping of
-         * "ITProSenchaTest.view.Foo" to "sass/src/ITProSenchaTest/view/Foo.scss".
+         * "ArmDeliver.view.Foo" to "sass/src/ArmDeliver/view/Foo.scss".
          */
-        "namespace": "ITProSenchaTest",
+        "namespace": "ArmDeliver",
 
         /**
          * Generated sass source settings

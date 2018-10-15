@@ -4,11 +4,11 @@
  * Sencha Cmd when upgrading.
  */
 Ext.application({
-    name: 'ITProSenchaTest',
+    name: 'ArmDeliver',
 
-    extend: 'ITProSenchaTest.Application',
+    extend: 'ArmDeliver.Application',
 
     requires: [
-        'ITProSenchaTest.view.main.Main'
+        'ArmDeliver.view.main.Main'
     ],
 });

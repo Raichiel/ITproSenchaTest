@@ -1,8 +1,8 @@
-Ext.define('ITProSenchaTest.view.login.Login', {
+Ext.define('ArmDeliver.view.login.Login', {
     extend: 'Ext.window.Window',
     xtype: 'login',
     requires: [
-        'ITProSenchaTest.view.login.LoginController',
+        'ArmDeliver.view.login.LoginController',
         'Ext.form.Panel'
     ],
 

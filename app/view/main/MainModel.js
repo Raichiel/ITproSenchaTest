@@ -1,9 +1,9 @@
-Ext.define('ITProSenchaTest.view.main.MainModel', {
+Ext.define('ArmDeliver.view.main.MainModel', {
     extend: 'Ext.app.ViewModel',
 
     alias: 'viewmodel.main',
 
     data: {
-        name: 'Учет товаров',
+        name: 'АРМ Web-шлюза интернет-магазина Столото',
     }
 });

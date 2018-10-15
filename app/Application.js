@@ -1,7 +1,7 @@
-Ext.define('ITProSenchaTest.Application', {
+Ext.define('ArmDeliver.Application', {
     extend: 'Ext.app.Application',
 
-    name: 'ITProSenchaTest',
+    name: 'ArmDeliver',
 
     stores: [
         // TODO: add global / shared stores here
