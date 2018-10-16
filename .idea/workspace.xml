@@ -3,26 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="476850d8-d51b-43a8-ad21-8ce5709438a7" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Readme.md" afterPath="$PROJECT_DIR$/Readme.md" />
-      <change beforePath="$PROJECT_DIR$/bootstrap.json" afterPath="$PROJECT_DIR$/bootstrap.json" />
-      <change beforePath="$PROJECT_DIR$/bootstrap.jsonp" afterPath="$PROJECT_DIR$/bootstrap.jsonp" />
-      <change beforePath="$PROJECT_DIR$/build/development/ITProSenchaTest/ext/resources/ext-watermark/Read Me.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/development/ITProSenchaTest/ext/resources/ext-watermark/demo-files/demo.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/development/ITProSenchaTest/ext/resources/ext-watermark/demo-files/demo.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/development/ITProSenchaTest/ext/resources/ext-watermark/demo.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/development/ITProSenchaTest/ext/resources/ext-watermark/fonts/ext-watermark.eot" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/development/ITProSenchaTest/ext/resources/ext-watermark/fonts/ext-watermark.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/development/ITProSenchaTest/ext/resources/ext-watermark/fonts/ext-watermark.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/development/ITProSenchaTest/ext/resources/ext-watermark/fonts/ext-watermark.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/development/ITProSenchaTest/ext/resources/ext-watermark/selection.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/development/ITProSenchaTest/ext/resources/ext-watermark/style.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/development/ITProSenchaTest/resources/Readme.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/temp/development/ITProSenchaTest/sass/ITProSenchaTest-all.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/temp/development/ITProSenchaTest/sass/ITProSenchaTest-all.scss.tmp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/temp/development/ITProSenchaTest/sass/config.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/temp/development/ITProSenchaTest/sencha-compiler/app/full-page-master-bundle.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/sass/example/bootstrap.json" afterPath="$PROJECT_DIR$/sass/example/bootstrap.json" />
-      <change beforePath="$PROJECT_DIR$/sass/example/bootstrap.jsonp" afterPath="$PROJECT_DIR$/sass/example/bootstrap.jsonp" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -423,7 +403,7 @@
       <workItem from="1538724575261" duration="12658000" />
       <workItem from="1539162280231" duration="2240000" />
       <workItem from="1539254432744" duration="24101000" />
-      <workItem from="1539586982508" duration="15483000" />
+      <workItem from="1539586982508" duration="15505000" />
     </task>
     <task id="LOCAL-00001" summary="app create+login">
       <created>1538256950765</created>
@@ -495,11 +475,18 @@
       <option name="project" value="LOCAL" />
       <updated>1539602944497</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="ready">
+      <created>1539687294239</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1539687294239</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103383000" />
+    <option name="totallyTimeSpent" value="103405000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
